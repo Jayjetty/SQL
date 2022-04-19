@@ -1,0 +1,19 @@
+CREATE TABLE clothes_for_sale (id INTEGER, name TEXT, size TEXT, price INTEGER, shipping INTEGER);
+
+INSERT INTO clothes_for_sale VALUES (1, "Long Sleeve", "M", 9.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (2, "Short Sleeve", "S", 5.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (3, "Tank Top", "L", 6.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (4, "Jean Pants", "XL", 19.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (5, "Capri Pants", "S", 14.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (6, "Crop Top", "L", 7.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (7, "Joggers", "S", 10.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (8, "Dress Pants", "M", 19.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (9, "Dress", "L", 14.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (10, "Ladies Top", "S", 4.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (11, "Mens Top", "M", 4.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (12, "Kids Tops", "XS", 7.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (13, "Mens Shoes", "L", 29.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (14, "Womens Shoes", "M", 19.99, 2.00);
+INSERT INTO clothes_for_sale VALUES (15, "Kids Shoes", "S", 9.99, 2.00);
+
+SELECT * FROM clothes_for_sale WHERE price < 10;
